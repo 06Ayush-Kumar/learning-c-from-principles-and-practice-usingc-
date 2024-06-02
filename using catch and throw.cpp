@@ -41,7 +41,7 @@ int main(){
         cout<<area(2,-64);
     }
     
-        catch( wrong_arguments){  // here if you want to print something rather then wrong_arguments then you can use it 
+        catch( wrong_arguments){  // as we can see the input are negative thats why throw will be used .But here we cant print other thing on diplay rather than wrong_argument by using catch 
             cout<<"pls dont give negative input";
         }
     
