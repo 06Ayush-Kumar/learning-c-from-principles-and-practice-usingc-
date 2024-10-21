@@ -112,7 +112,7 @@ int main(){
         amop.push_back(number);
     }
 for(const auto &i:amop){
-    cout<<i<<"\t";    // in this the elem. of vector here only
+    cout<<i+1<<"\t";    // in this the elem. of vector here only
 }
     return 0;
 }
